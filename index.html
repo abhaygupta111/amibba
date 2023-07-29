@@ -4,57 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Amibba</title>
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <!-- header start here  -->
-    <div class="top-header">
-        <div class="container">
-            <div class="top-header-flex">
-                <div>
-                    <i class="fa fa-map-marker" aria-hidden="true"></i><span>24 Olive Street, Prairie, NY
-                        53590</span>&emsp;
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i><a
-                        href="mailto:whitecollar@gmail.com">whitecollar@gmail.com</a>
-
-                </div>
-                <div>
-                    <i class="fa fa-clock-o" aria-hidden="true"></i><span>Mon - Fri: 8:00 am - 5:00 pm</span>
-                    <i class="fa fa-instagram" aria-hidden="true" style="color: white;"></i>
-                    <i class="fa fa-facebook-official" aria-hidden="true" style="color: white;"></i>
-                    <i class="fa fa-twitter" aria-hidden="true" style="color: white;"></i>
+    <!-- header starts here -->
+    <section>
+        <div class="bg-dark p-3 text-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <i class="fa fa-map-marker mr-2" aria-hidden="true" style="color: #40DDB6;"></i><span
+                            class="mr-4">24 Olive Street, Prairie, NY 53590</span>
+                        <i class="fa fa-envelope-o mr-2" aria-hidden="true" style="color: #40DDB6;"></i><a
+                            href="mailto:whitecollar@gmail.com"
+                            class="text-decoration-none text-light">whitecollar@gmail.com</a>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <i class="fa fa-clock-o mr-2" aria-hidden="true" style="color: #40DDB6;"></i><span
+                            class="mr-4">Mon - Fri: 8:00 am - 5:00 pm</span>
+                        <i class="fa fa-instagram mr-2" aria-hidden="true"></i>
+                        <i class="fa fa-twitter-square mr-2" aria-hidden="true"></i>
+                        <i class="fa fa-facebook-official mr-2" aria-hidden="true"></i>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="middle-header">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light  ">
-                <a class="navbar-brand" href="#">
-                    <img src="Logo.svg" width="150px">
-                </a>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="./image/logo.svg"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link text-dark" href="#">About Us</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Page
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pages
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="#">Action</a>
@@ -63,166 +63,579 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
+                            <a class="nav-link text-dark" href="#">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link text-dark" href="#">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link text-dark" href="#">Contact Us</a>
                         </li>
-                        <button class="btn btn-primary">Get Consulting</button>
                     </ul>
+                    <button class="btn btn-primary rounded-0" style="background-color: #6B77E5;">Get Consulting</button>
                 </div>
             </nav>
         </div>
-    </div>
+    </section>
+    <!-- header ends here -->
 
-    <!-- header ends here  -->
-
-    <!-- banner section starts here -->
+    <!-- banner starts here -->
     <section>
-
-        <div class="banner-sec">
-            <img src="banner.png" width="100%">
+        <div class="position-relative text-light">
+            <img src="./image/banner.png" width="100%">
             <div class="banner-content">
-                <div class="banner-content-middle">
-                    <h6> Welcome to Whitecollar Solution</h6>
-                    <h1>The Best Value
-                        for <span>Business</span> and
-                        Corporation</h1>
-                    <p>Collaboratively administrate empowered markets plug
-                        and play networks dynamically procrastinated </p>
-                    <button class="btn" style="background-color: #40DDB6;">
-                        Get Consulting
-                    </button>
-                    <i class="fa fa-play-circle" aria-hidden="true"></i><span> Watch Videos</span>
-                </div>
+                <ul>
+                    <li><span class="text-light">Welcome to Whitecollar Solution</span></li>
+                </ul>
+                <h1 class="font-weight-bold">The Best Value
+                    for <span style="color: #40DDB6;">Business</span> and
+                    Corporation</h1>
+                <p> Collaboratively administrate empowered markets plug
+                    and play networks dynamically procrastinated </p>
+                <button class="btn rounded-0 font-weight-bold mr-3" style="background-color: #40DDB6;">Get
+                    Consulting</button>
+                <i class="fa fa-play-circle mr-2" aria-hidden="true" style="color: #6B77E5;"></i><span>Watch
+                    Videos</span>
             </div>
         </div>
-        <div class="img-sec">
-
-        </div>
-        <div class="container my-5">
-            <div class="img-sec-content">
-                <img src="img1.svg">
-                <img src="img2.svg">
-                <img src="img3.svg">
-                <img src="img4.svg">
-                <img src="img5.png">
-            </div>
-        </div>
-
     </section>
-    <!-- banner section ends here -->
-    <!-- We Are Expertise In section start -->
-    <div class="container">
-        <div class="expertise my-5">
-            <div class="text-center">
-                <p>We Are Expertise In</p>
-                <h1 class="font-weight-bold">We Provide Professional<br>
-                    Business Solutions.</h1>
-            </div>
-            <div class="row">
-                <div class="col-md-4 my-3">
-                    <div class="expertise-content p-3">
-                        <div class="expertise-content-flex">
-                            <h5>Financial
-                                Consultancy</h5>
-                            <i class="fa fa-university p-3" aria-hidden="true"></i>
-                        </div>
-                        <p class="font-weight-bold">Read More</p>
-                    </div>
-                </div>
-                <div class="col-md-4 my-3">
-                    <div class="expertise-content p-3">
-                        <div class="expertise-content-flex">
-                            <h5>Business Management</h5>
-                            <i class="fa fa-university p-3" aria-hidden="true" style="background-color: #6B77E5;"></i>
-                        </div>
-                        <p class="font-weight-bold">Read More</p>
-                    </div>
-                </div>
-                <div class="col-md-4 my-3">
-                    <div class="expertise-content p-3">
-                        <div class="expertise-content-flex">
-                            <h5>Consultants & program</h5>
-                            <i class="fa fa-university p-3" aria-hidden="true"></i>
-                        </div>
-                        <p class="font-weight-bold">Read More</p>
-                    </div>
-                </div>
-                <div class="col-md-4 my-3">
-                    <div class="expertise-content p-3">
-                        <div class="expertise-content-flex">
-                            <h5>Company
-                                Management</h5>
-                            <i class="fa fa-university p-3" aria-hidden="true"></i>
-                        </div>
-                        <p class="font-weight-bold">Read More</p>
-                    </div>
-                </div>
-                <div class="col-md-4 my-3">
-                    <div class="expertise-content p-3">
-                        <div class="expertise-content-flex">
-                            <h5>Financial &
-                                Insurance jobs</h5>
-                            <i class="fa fa-university p-3" aria-hidden="true"></i>
-                        </div>
-                        <p class="font-weight-bold">Read More</p>
-                    </div>
-                </div>
-                <div class="col-md-4 my-3">
-                    <div class="expertise-content p-4">
-                        <div class="d-flex justify-content-center py-3">
-                            <h4 class="font-weight-bold text-center">More Service</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- banner ends here -->
 
-    <!-- We Are Expertise In section  ends-->
-
-
-    <!-- Section 5 starts here  -->
+    <!-- about us section starts here  -->
     <section>
-        <div class="sec-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="bg-dark sec-5-con text-white">
-                        <p>Why Choose Me</p>
-                       <h1>We Provide Solutions To 
-                        Grow Your Business</h1>
-                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. thinking to further the overall proposition.</p>
-                        <div class="row my-3" > 
-                            <div class="col-md-5 d-flex justify-content-center align-items-center">
-                                <img src="graph1.png" >
-                            </div>
-                            <div class="col-md-5">
-
-                            </div>
+        <div class="about-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 py-5">
+                        <div class="pr-5">
+                            <img src="./image/about-img.png" width="100%" class="">
+                            <h4 class="">We’re Ready To Grow Your
+                                Business With Us</h4>
+                            <p class="text-secondary ">Leverage agile frameworks to provide a robust synopsis for
+                                high level overviews. thinking to further the overall value proposition. </p>
+                            <p class="text-decoration-underline ">Get in Touch</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <img src="person-img.png" width="100%">
+                    <div class="col-md-7 bg-white p-5">
+                        <ul class="pl-3">
+                            <li><span class="text-dark">Welcome Whitecollar</span></li>
+                        </ul>
+                        <h1 class="font-weight-bold">We Care About Your Business Plan.</h1>
+                        <p class="text-secondary">Leverage agile frameworks to provide a robust synopsis for high level
+                            overviews.Iterative approaches to corporate strategy foster collaborative thinking to
+                            further the overal.</p>
+                        <p class="text-secondary">Leverage agile frameworks to provide a robust synopsis for high level
+                            overviews.Iterative approaches to corporate strategy </p>
+                        <ul class="pl-3">
+                            <li><span class="text-dark">Components of a Business Strategy</span></li>
+                            <li><span class="text-dark">Business Consulting</span></li>
+                        </ul>
+                        <div class="row ml-1">
+                            <div class="col-md-5 border border-dark">
+                                <div class="d-flex justify-content-between">
+                                    <img src="./image/icon1.svg">
+                                    <div>
+                                        <h6>Experience</h6>
+                                        <p>Leverage frameworks toprovidee werment.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 border border-dark offset-md-1">
+                                <div class="d-flex justify-content-between">
+                                    <img src="./image/icon2.svg">
+                                    <div>
+                                        <h6>Awards Winner</h6>
+                                        <p>Leverage frameworks toprovidee werment.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary rounded-0 mt-5" style="background-color: #6B77E5;">More About
+                            Us</button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Section 5 ends here  -->
+    <!-- about us section ends here  -->
+
+    <!-- brand card start here -->
+    <section>
+        <div class="container">
+            <div class="row my-5 text-center">
+                <div class="col">
+                    <img src="./image/01.svg">
+                </div>
+                <div class="col">
+                    <img src="./image/02.svg">
+                </div>
+                <div class="col">
+                    <img src="./image/03.svg">
+                </div>
+                <div class="col">
+                    <img src="./image/04.svg">
+                </div>
+                <div class="col">
+                    <img src="./image/05.svg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- brand card ends here -->
+
+    <!-- Business Solution starts here -->
+    <section>
+        <div class="container text-center my-5">
+            <p>We Are Expertise In</p>
+            <h1 class="font-weight-bold">We Provide Professional<br>
+                Business Solutions.</h1>
+            <div class="row mt-5">
+                <div class="col bg-light p-3 m-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="text-left">Financial Consultancy</h4>
+                        <img src="./image/icon3.png">
+                    </div>
+                    <h6 class="font-weight-bold text-left" style="color: #6B77E5;">Read More</h6>
+                </div>
+                <div class="col bg-light p-3 m-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="text-left">Business Management</h4>
+                        <img src="./image/icon4.png">
+                    </div>
+                    <h6 class="font-weight-bold text-left" style="color: #6B77E5;">Read More</h6>
+                </div>
+                <div class="col bg-light p-3 m-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="text-left">Consultants & program</h4>
+                        <img src="./image/icon5.png">
+                    </div>
+                    <h6 class="font-weight-bold text-left" style="color: #6B77E5;">Read More</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col bg-light m-3 p-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="text-left">Company Management</h4>
+                        <img src="./image/icon6.png">
+                    </div>
+                    <h6 class="font-weight-bold text-left" style="color: #6B77E5;">Read More</h6>
+                </div>
+                <div class="col bg-light m-3 p-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="text-left">Financial & Insurance jobs</h4>
+                        <img src="./image/icon7.png">
+                    </div>
+                    <h6 class="font-weight-bold text-left" style="color: #6B77E5;">Read More</h6>
+                </div>
+                <div class="col m-3" style="background-color: #6B77E5;">
+                    <h4 class="text-white py-5">More Services</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Business Solution ends here -->
+
+    <!-- Choose me section starts here -->
+
+    <section>
+        <div class="position-relative text-white">
+            <img src="./image/choose-img.png" width="100%">
+            <div class="choose-content">
+                <ul class="pl-3">
+                    <li><span class="text-light">Welcome to Whitecollar Solution</span></li>
+                </ul>
+                <h1 class="font-weight-bold">
+                    Why Choose Me
+                    We Provide Solutions To
+                    Grow Your Business
+                </h1>
+                <p class="text-secondary">
+                    Leverage agile frameworks to provide a robust synopsis for high level overviews. thinking to further
+                    the overall proposition.
+                </p>
+                <div class="row">
+                    <div class="col d-flex justify-content-between align-items-center m-2 p-3"
+                        style="background-color: #2E2F34;">
+                        <img src="./image/chart-1.png" h>
+                        <div>
+                            <p>Client</p>
+                            <h6>Quick Response</h6>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-between align-items-center m-2 p-3"
+                        style="background-color: #2E2F34;">
+                        <img src="./image/chart-1.png">
+                        <div>
+                            <p>Client</p>
+                            <h6>Quick Response</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="pl-2" style="list-style-type: disc;  color: #40DDB6;">
+                            <li><span class="font-weight-bold text-white">2800+ </span><span class="text-white">Active
+                                    Client</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="pl-2" style="list-style-type: disc;  color: #40DDB6;">
+                            <li><span class="font-weight-bold text-white">106+ </span></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="pl-2" style="list-style-type: disc;  color: #40DDB6;">
+                            <li><span class="font-weight-bold text-white">1650+ </span><span
+                                    class="text-white">reviews</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="pl-2" style="list-style-type: disc;  color: #40DDB6;">
+                            <li><span class="font-weight-bold" style="text-decoration: underline;">Get In Touch</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Choose me section ends here -->
+
+    <!-- our project starts here -->
+    <section>
+        <div class="container my-5">
+            <ul class="pl-3">
+                <li><span class="text-dark">Our Project</span></li>
+            </ul>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="font-weight-bold">You can check our projects<br>
+                        as inspirations.</h1>
+                </div>
+                <div class="col-md-6 text-right">
+                    <button class="btn rounded-0 font-weight-bold mr-3" style="background-color: #40DDB6;">Get
+                        Consulting</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="./image/project1.png" width="100%">
+                </div>
+                <div class="col-md-3">
+                    <img src="./image/project2.png" width="100%">
+                </div>
+                <div class="col-md-3">
+                    <img src="./image/project3.png" width="100%">
+                </div>
+                <div class="col-md-3">
+                    <img src="./image/project4.png" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our project ends here -->
+
+    <!-- testimonial starts here  -->
+    <section>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col">
+                    <ul class="pl-3 m-3">
+                        <li><span class="text-dark">Testimonial</span></li>
+                    </ul>
+                    <h1 class="font-weight-bold"> What Our<br>
+                        Client Say’s</h1>
+                    <p> Leverage agile frameworks to provide a robust synopsis for high level overviews.Iterative </p>
+                </div>
+                <div class="col bg-light p-3 m-3">
+                    <div class="d-flex align-items-center">
+                        <img src="./image/testi-img.png" class="pr-3">
+                        <div>
+                            <h5>Nattasha Kelvin</h5>
+                            <p class="m-0">Designer</p>
+                            <i class="fa fa-star" aria-hidden="true" style="color: #FFA722;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="color: #FFA722;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="color: #FFA722;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="color: #FFA722;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="color: #FFA722;"></i>
+                        </div>
+                    </div>
+                    <p class="my-3">“ dd an excerpt from your personal biography, or simply let the world know who you
+                        are and what
+                        you have to offer. Connect with your site visitor’s on a personal level and make sure that your
+                        site."</p>
+                </div>
+                <div class="col bg-light p-3 m-3">
+                    <div class="d-flex align-items-center">
+                        <img src="./image/testi-img.png" class="pr-3">
+                        <div>
+                            <h5>Nattasha Kelvin</h5>
+                            <p class="m-0">Designer</p>
+                            <i class="fa fa-star" aria-hidden="true" style="color: #FFA722;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="color: #FFA722;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="color: #FFA722;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="color: #FFA722;"></i>
+                            <i class="fa fa-star" aria-hidden="true" style="color: #FFA722;"></i>
+                        </div>
+                    </div>
+                    <p class="my-3">“ dd an excerpt from your personal biography, or simply let the world know who you
+                        are and what
+                        you have to offer. Connect with your site visitor’s on a personal level and make sure that your
+                        site."</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial ends here  -->
+
+    <!-- appointment starts here -->
+    <section>
+        <div style="background-color: #6B77E5;" class="py-5">
+            <div class="container">
+                <div class="row text-white">
+                    <div class="col-md-6">
+                        <ul class="pl-2 m-3">
+                            <li><span class="text-white">How We Work</span></li>
+                        </ul>
+                        <h1 class="font-weight-bold"> To Get Your Business<br>
+                            To The Next Level</h1>
+                        <p>Leverage agile frameworks to provide synopsis for high level overviews.Iterative approaches
+                            to corporate strategy foster collaborative thinking to further the overal.</p>
+                        <div class="p-3 d-flex align-items-center justify-content-between"
+                            style="background-color: #40DDB6;">
+                            <img src="./image/chart-3.png" class="mr-3">
+                            <p>We have <b>50+</b> years of experience. We offer
+                                <b>whitecollar</b> services to you
+                            </p>
+                        </div>
+                        <ul class="pl-2" style="list-style-type: disc;  color: #40DDB6;">
+                            <li><span class="font-weight-bold text-white">Planning </span></li>
+                        </ul>
+                        <p> Leverage agile frameworks to provide synopsis for high level overviews Iterative.</p>
+                        <hr style="background-color: white;">
+                        <ul class="pl-2" style="list-style-type: disc;  color: #40DDB6;">
+                            <li><span class="font-weight-bold text-white">Briefing </span></li>
+                        </ul>
+                        <p> Leverage agile frameworks to provide synopsis for high level overviews Iterative.</p>
+                        <hr style="background-color: white;">
+                        <ul class="pl-2" style="list-style-type: disc;  color: #40DDB6;">
+                            <li><span class="font-weight-bold text-white">Evaluation </span></li>
+                        </ul>
+                        <p> Leverage agile frameworks to provide synopsis for high level overviews Iterative.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="pl-2 m-3">
+                            <li><span class="text-white">Book Now</span></li>
+                        </ul>
+                        <h1 class="font-weight-bold"> To Get Your Business<br>
+                            Appointment</h1>
+                        <div class="bg-white p-4">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Email Address">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Phone Number">
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <input type="date" class="form-control" placeholder="Date">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Time">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Service Description"
+                                        rows="3"></textarea>
+                                </div>
+                                <button class="btn rounded-0 mr-3" style="background-color: #40DDB6;">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- appointment ends here -->
+
+    <!-- expert starts here -->
+    <section>
+        <div class="position-relative">
+            <img src="./image/expert-img.png" width="100%">
+            <div class="expert p-3">
+                <h1 class="font-weight-bold text-white"> Our Expert Team</h1>
+            </div>
+        </div>
+    </section>
+    <!-- expert ends here -->
+
+    <!-- news start here  -->
+    <section>
+        <div class="container my-5">
+            <ul class="pl-3">
+                <li><span class="text-dark">Our Recent News</span></li>
+            </ul>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="font-weight-bold">Latest Post</h1>
+                </div>
+                <div class="col-md-6 text-right">
+                    <button class="btn btn-lg rounded-0 font-weight-bold mr-3 bg-dark text-white">More news</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="./image/new1.png" width="100%">
+                    <h1 class="font-weight-bold"> A Business Consulting That Can Produce</h1>
+                    <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.Iterative
+                        approaches to corporate strategy foster collaborative thinking.
+                    </p>
+                    <h6 class="font-weight-bold text-left" style="color: #6B77E5;">Read More</h6>
+                </div>
+                <div class="col">
+                    <img src="./image/new2.png" width="100%">
+                    <h1 class="font-weight-bold"> Team Identifiers, Benefits, and How to Build One that Works</h1>
+                    <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.Iterative
+                        approaches to corporate strategy foster collaborative thinking.
+                    </p>
+                    <h6 class="font-weight-bold text-left" style="color: #6B77E5;">Read More</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- news end here  -->
+
+    <!-- subscribe start here -->
+    <section>
+        <div class="container my-5">
+            <div class="position-relative">
+                <img src="./image/subscribe.png" width="100%">
+                <div class="subscribe">
+                    <p class="text-center">Subscribe Whitecollar</p>
+                    <h1 class="text-center">Need An Experienced <br>
+                        <span class="text-white">whitecollar</span> job Service? Contact Us
+                    </h1>
+                    <p class="text-center">Leverage agile frameworks to provide a robust synopsis for high level
+                        overviews.Iterative approaches to corporate strategy foster collaborative thinking.</p>
+                    <div class="text-center">
+                        <button class="btn btn-lg rounded-0  text-white font-weight-bold"
+                            style="background-color: #6B77E5;">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- subscribe ends here -->
+
+    <!-- footer starts here -->
+    <section>
+        <div class="bg-dark py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./image/footer-logo.svg">
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fa fa-phone p-2 mr-2" aria-hidden="true"
+                            style="background-color: #4C4D52; border-radius: 50%; color: #40DDB6;"></i><span
+                            class="text-white font-weight-bold">Call Us</span><a href="tel:+01 2423234223"
+                            class="text-white pl-2">+01 2423234223</a>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fa fa-envelope-o p-2 mr-2" aria-hidden="true"
+                            style="background-color: #4C4D52; border-radius: 50%; color: #40DDB6;"></i><span
+                            class="text-white font-weight-bold">Mail Us</span><a href="mailto:Info@Example.com"
+                            class="text-white pl-2">Info@Example.com</a>
+
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fa fa-map-marker p-2 mr-2" aria-hidden="true"
+                        style="background-color: #4C4D52; border-radius: 50%; color: #40DDB6;"></i><span
+                        class="text-white font-weight-bold">Location </span><span class="text-white">Amsterdam, 109-74</span>
+                    </div>
+                </div>
+                <hr style="background-color: #4C4D52;">
+                <div class="row">
+                    <div class="col-md-2">
+                        <ul style="list-style-type: square; color: #6B77E5;">
+                            <li><span style="color: #40DDB6;">Quick Link</span></li>
+                        </ul>
+                        <ul style="list-style-type: none; color: white;">
+                            <li>Home</li>
+                            <li>About Us</li>
+                            <li>Blog</li>
+                            <li>Service</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul style="list-style-type: square; color: #6B77E5;">
+                            <li><span style="color: #40DDB6;">Our Service</span></li>
+                        </ul>
+                        <ul style="list-style-type: none; color: white;">
+                            <li>Financial Consulting</li>
+                            <li>Business Management</li>
+                            <li>Consultant & Programs</li>
+                            <li>Company Management</li>
+                            <li>Insurance & Finance</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <ul style="list-style-type: square; color: #6B77E5;">
+                            <li><span style="color: #40DDB6;">Utility Page</span></li>
+                        </ul>
+                        <ul style="list-style-type: none; color: white;">
+                            <li>Style Guide</li>
+                            <li>Licenses</li>
+                            <li>Instructions</li>
+                            <li>Changelog</li>
+                            <li>404 Page</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 p-3 text-white" style="background-color: #474950;">
+                        <h5>Subscribe</h5>
+                        <p>Join Our Mailing List & to get our news.</p>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <input type="email" class="form-control" placeholder="Enter email">
+                            </div>
+                            <div class="col-md-4">
+                                <button class="btn btn-primary rounded-0" style="background-color: #6B77E5;">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr style="background-color: #4C4D52;">
+                <p class="text-white">Copyright © <span style="color: #40DDB6;">WhiteCollar</span> | Designed by <span style="color: #6B77E5;">VictorFlow</span> Templates - Powered by Webflow
+                    Follow :</p>
+            </div>
+        </div>
+    </section>
+    <!-- footer ends here -->
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
 </body>
 

@@ -1,0 +1,41 @@
+.banner-content {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 400px;
+}
+
+ul {
+    list-style-type: square;
+    color: #40DDB6;
+}
+
+.about-us {
+    background-color: #F4F4F4;
+}
+
+.about-us ul {
+    list-style-type: disc;
+    color: #6B77E5;
+}
+
+.choose-content {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 500px;
+}
+
+.expert {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0000009e;
+}
+.subscribe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
