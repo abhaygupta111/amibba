@@ -1,0 +1,116 @@
+@media screen and (max-width: 580px) {
+    .top-header{
+        display: none !important;
+    }
+    .banner-content{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 45%;
+    }
+    .banner-content ul li span, .choose-me ul li  span, .project ul li span, .news ul li span{
+        font-size: 8px;
+    }
+    .banner-content ul, .choose-me ul, .project ul, .news ul{
+        padding-left: 10px;
+        margin-bottom: 0;
+    }
+    .banner-content h1, .choose-me h1, .project h1, .textimonial h1, .appointment h1, .expert h1, .news h1, .subscribes h1{
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    .banner-content p, .choose-me p, .project p, .appointment p, .subscribes p{
+        font-size: 8px;
+    }
+    .banner-content button, .project button, .appointment button, .news button, .subscribes button{
+        height: 25px;
+        width: 70px;
+        font-size: 8px;
+        padding: 2px;
+        margin-right: 0 !important;
+    }
+    .banner-content span{
+        font-size: 8px !important;
+    }
+    .banner-content i{
+        margin-right: 0 !important;
+    }
+    .about-img .pr-5{
+        padding-right: 0px !important;
+    }
+    .about-us h1{
+        font-size: 1.5rem;
+    }
+    .about-card .col-md-5{
+        margin: 5px 0;
+    }
+    .brand-logo .col img{
+        width: 100% !important;
+    }
+    .brand-logo .my-5{
+        margin: 0px !important;
+    }
+    .expertise h1{
+        font-size: 1.5rem;
+    }
+    .choose-content{
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        width: 55%;
+    }
+    .choose-me-card .col{
+        width: 100px;
+        height: 50px;
+        margin: 5px !important;
+        padding: 8px !important;
+    }
+    .choose-me-card img{
+        width: 30px;
+        height: 30px;
+    }
+    .choose-me-card p{
+        font-size: 8px !important;
+        margin: 0 !important;
+    }
+    .choose-me-card h6{
+        font-size: 10px;
+    }
+    .project h1 br, .textimonial h1 br, .appointment h1 br{
+        display: none;
+    }
+    .project .text-right, .news .text-right{
+        text-align: left !important;
+    }
+    .appointment img{
+        width: 50px;
+        height: 50px;
+    }
+    .appointment ul li span{
+        font-size: 12px;
+    }
+    .news{
+        overflow: hidden;
+    }
+    .news .my-5{
+        margin: 5px !important;
+    }
+    .news .col{
+        min-width: 100% !important;
+    }
+    .choose-me-list{
+        display: none !important;
+    }
+    .expert{
+        transform: translate(-50%, 0%);;
+    }
+    .footer .col-md-3{
+        margin: 7px 0 !important;
+    }
+    .expertise .col{
+        min-width: 90%;
+    }
+    .subscribes p{
+        margin-bottom: 0;
+    }
+}
